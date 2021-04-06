@@ -1,0 +1,144 @@
+{"intents": [
+{"tag": "greetings",
+"patterns": ["Hi there!","Hi!","Hey!","Hola!", "Hello!", "Good day!"],
+"responses": ["Hi!\nThis chat bot is designed to answer basic questions about Chamber Toastmasters.\n<a href=https://www.chambertoastmasters.club>Chamber Toastmasters</a>\nHow may I help you?", 
+"Hi there, how can I help?\nThis chat bot is designed to answer basic questions about Chamber Toastmasters.\n<a href=https://www.chambertoastmasters.club>Chamber Toastmasters</a>\nHow may I help?",
+"Hello, this chat bot is designed to answer basic questions about Chamber Toastmasters.\n<a href=https://www.chambertoastmasters.club>Chamber Toastmasters</a>\nHow may I help you?",
+"Hi there.\nThis chat bot is designed to answer basic questions about Chamber Toastmasters.\n<a href=https://www.chambertoastmasters.club>Chamber Toastmasters</a>"],
+"context": [""]
+},
+
+{"tag": "greeting_queries",
+"patterns": ["How are you", "Is anyone there?"],
+"responses": ["Hello, this chat bot is designed to answer basic questions about Chamber Toastmasters.\nHow may I help?","Hi there.\nThis chat bot is designed to answer basic questions about Chamber Toastmasters.\n<a href=https://www.chambertoastmasters.club>Chamber Toastmasters</a>"],
+"context": [""]
+},
+
+{"tag": "learn",
+"patterns": ["learn", "What will I learn?"],
+"responses": ["At Toastmasters, you will learn how to be a better speaker and leader. Visit our website for more details: <a href=https://www.chambertoastmasters.club>Chamber Toastmasters</a>"],
+"context": [""]
+},
+
+{"tag": "goodbye",
+"patterns": ["Bye!","exit","quit", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+"responses": ["See you!<br>Visit our site: <br><a href=https://www.chambertoastmasters.club/>Chamber Toastmasters</a> for more information.",
+"Have a nice day<br>Visit our site: \n<a href=https://www.chambertoastmasters.club/>Chamber Toastmasters</a> for more information.", 
+"Bye! Come back again soon.<br>Visit our site: \n<a href=https://www.chambertoastmasters.club/>Chamber Toastmasters</a> for more information."],
+"context": [""]
+},
+
+{"tag": "thanks",
+"patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+"responses": ["Happy to help!<br>Visit our site: <br><a href=https://www.chambertoastmasters.club>Chamber Toastmasters</a> for more information.", 
+"Any time!<br>Visit our site: <br><a href=https://www.chambertoastmasters.club>Chamber Toastmasters</a> for more information.", 
+"My pleasure!<br>Visit our site: <a href=https://www.chambertoastmasters.club>Chamber Toastmasters</a> for more information."],
+"context": [""]
+},
+
+{"tag": "horst",
+"patterns": ["horst"],
+"responses": ["Thank you Horst for all of your help!<br>Visit his  site: <br><a href=https://twitter.com/horstjens>Horst Jens</a> "],
+"context": [""]
+},
+
+
+{"tag": "noanswer",
+"patterns": [],
+"responses": ["Sorry, I didn't understand you.", "Please give me more info.", "I have not been programmed for that entry.","Error! There is something on your keyboard!"],
+"context": [""]
+},
+
+{"tag": "help",
+"patterns": ["help","What help you provide?", "be helpful", "support"],
+"responses": ["I can help guide you with Chamber Toastmasters.\nVisit our site: \n<a href=https://www.chambertoastmasters.club>Chamber Toastmasters</a>",
+"I offer support for Chamber Toastmasters.\nVisit our site: \n<a href=https://www.chambertoastmasters.club>Chamber Toastmasters</a>", 
+"Please ask me who, what, when, where questions about Chamber Toastmasters.\nVisit our site: \n<a href=https://www.chambertoastmasters.club>Chamber Toastmasters</a>"],
+"context": [""]
+},
+
+{"tag": "options",
+"patterns": ["How you could help me?", "support", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+"responses": ["I can help guide you with Chamber Toastmasters.\nVisit our site: \n<a href=https://www.chambertoastmasters.club>Chamber Toastmasters</a>",
+"I offer support for Chamber Toastmasters.\nVisit our site: \n<a href=https://www.chambertoastmasters.club>Chamber Toastmasters</a>"],
+"context": [""]
+},
+
+{"tag": "when",
+"patterns": ["When","time", "When is the meeting?", "next meeting" ],
+"responses": ["Our regular meeting is held on Wednesday nights at 19:15 online on Zoom. The meetings typically start on time and end 75 minutes later."],
+"context": [""]
+},
+
+{"tag": "visitors",
+"patterns": [ "Guests", "participate", "Can I visit","visit", "Can I bring a friend?"],
+"responses": ["Our meetings are held online. Guests are welcome! Here's the URL:\n<a href=https://www.chambertoastmasters.club>Chamber Toastmasters</a>"],
+"context": [""]
+},
+
+{"tag": "where",
+"patterns": [ "Where", "Where is the meeting held?"],
+"responses": ["Our meetings are held online on Zoom. Find the URL here:\n<a href=https://www.chambertoastmasters.club>Chamber Toastmasters</a>"],
+"context": [""]
+},
+
+{"tag": "member",
+"patterns": ["member","how do I become a member"],
+"responses": ["Anyone can become a member. Contact us on our FB or Telegram channel for details on joining.", "Our members are business owners, teachers, programmers. All are interested in becoming better speakers. Contact us on our FB or Telegram channel for details on joining our international club or here: <a href=https://www.chambertoastmasters.club>Chamber Toastmasters</a>"],
+"context": [""]
+},
+
+{"tag": "who",
+"patterns": ["who"],
+"responses": ["Anyone can participate. Contact us on our FB or Telegram channel for details on joining our international club.", "Our members are business owners, teachers, programmers. All are interested in becoming better speakers. Contact us on our FB or Telegram channel for details on joining our international club."],
+"context": [""]
+},
+
+{"tag": "What_is_toastmasters",
+"patterns": ["What is TM", "What is Toastmasters"],
+"responses": ["Chamber Toastmasters is an English speaking international club that helps members become better speakers and leaders. Contact us on our FB or Telegram channel or here <a href=https://www.chambertoastmasters.club>Chamber Toastmasters</a> for details on joining."],
+"context": [""]
+},
+
+{"tag": "chamber",
+"patterns": ["chamber", "chamber toastmasters"],
+"responses": ["Chamber Toastmasters is an English speaking international club that helps members become better speakers and leaders. We focus on developing speaking skills rather than grammar skills but you will learn some grammar and vocabulary as well."],
+"context": [""]
+},
+
+{"tag": "English",
+"patterns": ["English", "My English no good", "speak English"],
+"responses": ["Chamber Toastmasters is an English speaking international club that helps members become better speakers and leaders. We focus on developing speaking skills rather than grammar skills but you will learn some grammar and vocabulary as well. Find out more here: <a href=https://www.chambertoastmasters.club>Chamber Toastmasters</a>"],
+"context": [""]
+},
+
+
+
+{"tag": "join",
+"patterns": ["how to join", "join"],
+"responses": ["Contact us on our FB or Telegram channel for details on joining.Find out more here: <a href=https://www.chambertoastmasters.club>Chamber Toastmasters</a>"],
+"context": [""]
+},
+
+{"tag": "how_much",
+"patterns": ["how much", "cost", "money", "pay"],
+"responses": ["Free for guests but about 50USD every six months for members. Contact us on our FB or Telegram channel for details on joining our international club.", "Payment is made through our Treasurer. Please contact us on our FB or Telegram channel for details."],
+"context": [""]
+},
+
+{"tag": "test",
+        "patterns": ["t"],
+        "responses": ["1","2","3","4","5"],
+        "context": [""]
+        },
+
+
+
+
+{"tag": "why",
+"patterns": ["Why", "Why should I join?", "Why join" ],
+"responses": ["If you join, you will be a part of a community that is interested in your success as a speaker and a leader. Contact us on our FB or Telegram channel for details on joining our international club."],
+"context": [""]
+}
+]
+}
